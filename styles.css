@@ -1,0 +1,101 @@
+body {
+	background-image: url("https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg");
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+p {
+	color: white;
+	margin:auto;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 70px;
+}
+div {
+	height: 500px;
+	text-align: center;
+	margin: auto;
+}
+.div1{
+	height:300px;
+}
+h1 {
+	display: inline-block;
+}
+.h1 {
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 150px;
+}
+.h2 {
+	color: purple;
+	font-size: 50px;
+	position: relative;
+	top: 150px;
+}
+.img {
+	width: 70px;
+}
+.img1{
+	width: 40px;
+}
+.divq{	
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+	padding-top: 20px;
+  animation: mymove1 5s infinite;
+}
+@keyframes mymove1 {
+  from {
+  	top: 150px;
+  	left: 0px;
+  }
+  to {
+  	top: 270px;
+  	left: 20px;
+  }
+}
+.divp{
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	position: relative;
+	top: 150px;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {top: 150px;}
+  to {top: 270px;}
+}
+.h3 {
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 150px;
+}
+.h4 {
+	color: blue;
+	font-size: 50px;
+	position: relative;
+	top: 150px;
+}
+.h5 {
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 150px;
+}
+.h6 {
+	color: white;
+	font-size: 50px;
+}
+.h7 {
+	color: white;
+	font-size: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
